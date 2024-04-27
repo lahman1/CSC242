@@ -18,7 +18,7 @@ double calculateAverage(int arr[], int size) {
 
     int main() {
         int numbers[] = {1, 10, 13, 17, 21, 30, 50};
-        int size = sizeof(numbers) / sizeof(numbers[0])
+        int size = sizeof(numbers) / sizeof(numbers[0]);
 
         double avg = calculateAverage(numbers, size);
 
